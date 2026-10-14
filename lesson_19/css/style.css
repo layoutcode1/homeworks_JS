@@ -1,0 +1,153 @@
+/* @import url("reset.css"); */
+ 
+body{
+  max-width: 100%;
+  background-color:#2A2D35;
+  color: #83b3fc;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-family: Oxygen, "Open Sans", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 20px;
+}
+
+div p{color: #85b0f1;}
+p{color: #72d2ffe8;}
+h1{text-align: center;}
+h2, h3{color:#297efdce;}
+
+
+/* task05 */
+.shop-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+.product-card img {
+  display: block; 
+  width: 170px;
+  height: 180px;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px #00000014;
+  height: 100%; 
+}
+.product-card p {
+  color: #000000;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.price {
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 26px;
+  color: #ff0303;
+  display: block; 
+} 
+.product-card:hover {
+  transform: translateY(-4px);
+}
+.product-card.selected {
+  border-color: #37ff37;
+}
+
+
+/* task06 */
+.list-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.lists {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.list-block {
+  background: #3b486b;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 12px #00000014;
+  color: #2aaaff;
+}
+.list-block h2 {
+  margin-top: 0;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #756eb880;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+.arrow {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  user-select: none;
+}  
+ .add-arrow {
+  color: #48ff00;
+  cursor: pointer;
+  font-size: 24px;
+}
+.add-arrow:hover {
+  color: #146300;          
+  transform: scale(1.2);  
+} 
+.remove-arrow {
+  color: #ff0000;
+  cursor: pointer;
+  font-size: 24px;
+}
+.remove-arrow:hover {
+  color: #6e0902;          
+  transform: scale(1.2);  
+}
+
+
+/* task07 */
+#snow-container{
+  max-width: 1000px;
+  margin: 40px auto;
+}
+#snowflake {
+  position: fixed;
+  top: 0;
+  left: 50%;         
+  font-size: 35px;  
+  color: #ffffff;
+  user-select: none;  
+  pointer-events: none; 
+  transform: translateX(-50%); 
+}
