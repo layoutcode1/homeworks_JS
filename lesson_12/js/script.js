@@ -315,7 +315,7 @@ document.write(`
     line-height: 1.2;
     margin: 0 0 6px 0;     
     user-select: none;
-    height: 20px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
