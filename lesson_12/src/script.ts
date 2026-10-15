@@ -340,14 +340,14 @@ document.write(`
 }
 .arrow {
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.3;
     margin: 0 0 6px 0;     
     user-select: none;
-    height: 20px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: scaleY(1.4); 
+    transform: scaleY(1.1); 
     transform-origin: center;
 }
 @media (max-width: 900px) {
@@ -389,7 +389,7 @@ document.write(`<div class="indices">${stepHtml.indices}</div>`)
 
 document.write(`<div class="array">${stepHtml.array}</div>`)
   if (i < steps.length - 1) {
-    document.write(`<div class="arrow">\uD83E\uDC43</div>`)
+    document.write(`<div class="arrow">\uD83E\uDC3F</div>`)
     }
     document.write(`</div>`)
   }
