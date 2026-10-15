@@ -312,7 +312,7 @@ document.write(`
 }
 .arrow {
     font-size: 26px;
-    line-height: 1.4;
+    line-height: 1.3;
     margin: 0 0 6px 0;     
     user-select: none;
     height: auto;
