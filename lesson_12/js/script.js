@@ -355,7 +355,7 @@ function renderScheme(steps, title) {
         document.write(`<div class="indices">${stepHtml.indices}</div>`);
         document.write(`<div class="array">${stepHtml.array}</div>`);
         if (i < steps.length - 1) {
-            document.write(`<div class="arrow">\uD83E\uDC43</div>`);
+            document.write(`<div class="arrow">\uD83E\uDC3F</div>`);
         }
         document.write(`</div>`);
     }
