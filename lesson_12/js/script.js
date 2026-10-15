@@ -312,14 +312,14 @@ document.write(`
 }
 .arrow {
     font-size: 26px;
-    line-height: 1.3;
+    line-height: 1.2;
     margin: 0 0 6px 0;     
     user-select: none;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: scaleY(1.1); 
+    transform: scaleY(1.4); 
     transform-origin: center;
 }
 @media (max-width: 900px) {
